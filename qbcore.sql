@@ -1,13 +1,3 @@
-CREATE TABLE IF NOT EXISTS `apartments` (
-  `id` INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  `name` VARCHAR(255) DEFAULT (NULL),
-  `type` VARCHAR(255) DEFAULT (NULL),
-  `label` VARCHAR(255) DEFAULT (NULL),
-  `citizenid` VARCHAR(11) DEFAULT (NULL),
-  KEY `citizenid` (`citizenid`),
-  KEY `name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
-
 CREATE TABLE IF NOT EXISTS `bank_accounts` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `citizenid` VARCHAR(11) DEFAULT (NULL),
