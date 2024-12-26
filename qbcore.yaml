@@ -172,11 +172,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-weathersync
 
   - action: download_github
-    dest: ./resources/[qb]/qb-apartments
-    ref: main
-    src: https://github.com/qbcore-framework/qb-apartments
-
-  - action: download_github
     dest: ./resources/[qb]/qb-vehiclekeys
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclekeys
@@ -188,11 +183,6 @@ tasks:
     dest: ./resources/[qb]/qb-weapons
     ref: main
     src: https://github.com/qbcore-framework/qb-weapons
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-spawn
-    ref: main
-    src: https://github.com/qbcore-framework/qb-spawn
 
   - action: download_github
     dest: ./resources/[qb]/qb-smallresources
